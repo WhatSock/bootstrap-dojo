@@ -1,4 +1,4 @@
-AccDC Bootstrap 1.2 for Dojo (12/11/2017)
+AccDC Bootstrap 1.4 for Dojo (01/08/2018)
 =====
 
 AccDC Bootstrap is an HTML parser that renders advanced, accessible interactive controls using semantic HTML markup.
