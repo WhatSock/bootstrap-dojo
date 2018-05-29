@@ -65,6 +65,17 @@ verNode.innerHTML = $A.version;
 if (window.navigator.onLine)
 // Check for updates
 $A.getScript('http://api.whatsock.com/bootstrap-dojo-updates.js');
+
+                  // Scroll to page title when interacting with main tabs
+                  let tabLink = document.querySelector('.contextual-menu');
+                  let contentY = document.getElementById('pgContent').offsetTop;
+
+                  tabLink.addEventListener('click', function() {
+                    window.scroll({
+                      top: contentY,
+                      behavior: "smooth"
+                    });
+                  });
 });
 });
 
